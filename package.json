@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^17.0.0",
+    "@sendgrid/mail": "^8.1.4",
     "markdown-it": "^14.1.0"
   }
 }

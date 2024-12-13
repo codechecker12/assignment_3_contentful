@@ -11,8 +11,8 @@ module.exports = function (eleventyConfig) {
 
 
   const client = contentful.createClient({
-    space: 'gs7fwmqwf978',
-    accessToken: '2cOJhGXxkC3Tpk6RZYKSig2kRF0wgNHeGV2cwTJFXU0',
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
   });
 
   client.getEntries({ content_type: 'blogPage' }).then((response) => {
