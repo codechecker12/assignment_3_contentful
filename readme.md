@@ -1,5 +1,5 @@
 
-# Assignment 2 - Eleventy Contentful Project
+# Assignment 3 - Eleventy Contentful Project
 
 This project is a web application using Eleventy (11ty) for static site generation and Contentful as the headless CMS. It fetches data from Contentful to display content on various pages like home, blog, about, labs, and lab02, with added pagination functionality for the blog page.
 
@@ -28,7 +28,7 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Created a `.env` file in the root of my project and i will add the Contentful space ID and access token while demo:
+Created a `.env` file in the root of my project and add the Contentful space ID and access token:
 
 ```plaintext
 CONTENTFUL_SPACE_ID=your_space_id_here
